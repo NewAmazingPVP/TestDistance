@@ -1,0 +1,9 @@
+name: TestDistance
+version: '${project.version}'
+main: mc.testdistance.TestDistance
+api-version: 1.20
+commands:
+  setview:
+    description: Set custom view and simulation distances
+    usage: /setview <view_distance> <simulation_distance>
+depend: [LuckPerms]
